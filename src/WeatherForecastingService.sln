@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastingService.Api", "WeatherForecastingService.Api\WeatherForecastingService.Api.csproj", "{B9F7C61C-993D-4628-8F06-C71FF3ECCC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76F1B74F-CFC4-4DA1-85A4-5ABD10C1DAE9}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastingService.Application", "WeatherForecastingService.Application\WeatherForecastingService.Application.csproj", "{B9085E46-D07A-4641-B04C-59F70A72F18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F7C61C-993D-4628-8F06-C71FF3ECCC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F7C61C-993D-4628-8F06-C71FF3ECCC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F7C61C-993D-4628-8F06-C71FF3ECCC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F7C61C-993D-4628-8F06-C71FF3ECCC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9085E46-D07A-4641-B04C-59F70A72F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9085E46-D07A-4641-B04C-59F70A72F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9085E46-D07A-4641-B04C-59F70A72F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9085E46-D07A-4641-B04C-59F70A72F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

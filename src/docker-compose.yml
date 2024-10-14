@@ -1,0 +1,6 @@
+﻿services:
+  weatherforecastingservice.api:
+    image: weatherforecastingservice.api
+    build:
+      context: .
+      dockerfile: WeatherForecastingService.Api/Dockerfile
