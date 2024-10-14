@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using Weather.NET;
 using Weather.NET.Models.WeatherModel;
-using WeatherForecastingService.Application.Models;
 
 namespace WeatherForecastingService.Application;
 
